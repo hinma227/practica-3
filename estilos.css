@@ -1,0 +1,60 @@
+/* Estilo del fondo de la página*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    }
+/* Estilo del contenedor, donde aparece todo el contenido*/
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    }
+/* Estilo de los botones de respuesta*/
+.btnrespuestas{
+  width: 300px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+/* Estilo de los botones de respuesta cuando se pasa el raton por encima de ellos */
+.btnrespuestas:hover{
+  width: 300px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* clase para capas no visibles  */
+.visibilitat {
+  display: none;
+
+  }
+
+      
+/* clase para a capas visibles */
+.visibilitat.activa {
+  display: block;
+  }
+
+/* clase que desactiva la capa y todo en su interior */
+.pointerevents {
+    pointer-events: none;
+  }
+
+/* clase que activa la capa y todo en su interior */
+.pointerevents.activa {
+    pointer-events: auto;
+  }
+
