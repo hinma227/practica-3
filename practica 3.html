@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica 2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div id="divprincipal" class="container">
+      <div id="divinicio"> <!-- Capa principal -->
+        <h1>Gestión de productos</h1>
+        <hr><br>
+        <p>Tenemos</p>
+      </div>
+      <div id="divformulario">
+        <form>     
+          Palabra clave:<br>       
+          <input type="text" id="primform" placeholder="ej. 'mobil'"><br><br>
+          Precio mínimo:<br>   
+          <input type="text" id="segform" placeholder="0"><br><br>
+          Precio máximo:<br>   
+          <input type="text" id="tercform" placeholder="1000"><br><br>
+          
+
+          <label for="val">Valoración:</label>
+          <br>
+          <select name="val" id="listval">
+            <option value="Ns/Nc">Ns/Nc</option>
+            <option value="baja">Baja</option>
+            <option value="media-baja">Media-baja</option>
+            <option value="media">Media</option>
+            <option value="media-alta">Media-alta</option>
+            <option value="alta">Alta</option>
+
+          </select> 
+          <br><br>
+
+          <label for="stock">En stock:</label>
+          <br>
+          <select name="stock" id="liststock">
+            <option value="yes">Sí</option>
+            <option value="no">No</option>
+          </select> 
+
+        </form>
+        <br><br>
+        <div id="divbotones">
+          <button id="btnfiltro">Aplicar filtro</button>
+          <button id="btntodos">Mostrar todos</button>
+        </div>
+
+        <div id="divresultado">
+          
+        </div>
+      </div>
+    </div>
+      
+
+        
+    
+    <script src="scripts/script.js"></script> 
+  </body>
+</html>
